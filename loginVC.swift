@@ -78,6 +78,8 @@ class loginVC: UIViewController, UITextFieldDelegate {
         
         func showCreateAccountScreen() {
             if showCreateAccountScreenBtn.isSelected {
+                
+                self.dismiss(animated: true, completion: nil)
                 let signUpVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpVC")
                 self.present(signUpVC!, animated: true, completion: nil)
             }

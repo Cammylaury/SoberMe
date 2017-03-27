@@ -13,6 +13,6 @@ class signInBtn: UIButton {
     
     override func draw(_ rect: CGRect) {
         SoberMeStyleKit.drawSignInBtn(frame: self.bounds, resizing: .aspectFit)
-        self.adjustsImageWhenHighlighted = true
     }
+    
 }
